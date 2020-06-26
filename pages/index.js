@@ -1,20 +1,16 @@
-import Link from 'next/link'
+import Layout from "../components/Layout";
 
-function HomePage() {
+const Index = () => {
   return (
-    <ul>
-      <li>
-        <Link href="/">
-          <a>Home</a>
-        </Link>
-      </li>
-      <li>
-        <Link href="/about">
-          <a>About Us</a>
-        </Link>
-      </li>
-    </ul>
+    <Layout>
+      Hello World
+      <style jsx>{`
+      body {
+        background-color: #161616;
+      }
+      `}</style>
+    </Layout>
   )
-}
+};
 
-export default HomePage
+export default Index;

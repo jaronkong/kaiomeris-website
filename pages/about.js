@@ -1,5 +1,16 @@
+import Layout from "../components/Layout";
+
 function About() {
-  return <div>About</div>
+  return (
+    <Layout>
+      About
+      <style jsx>{`
+      body {
+        background-color: #161616;
+      }
+      `}</style>
+    </Layout>
+  )
 }
 
 export default About

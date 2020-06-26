@@ -8,6 +8,9 @@ function HomePage() {
         <title>Quantum Protocol</title>
       </Head>
       <p>Hello world!</p>
+
+      <style jsx>{`
+      `}</style>
     </div>
   )
 }
