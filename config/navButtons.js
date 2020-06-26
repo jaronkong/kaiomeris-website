@@ -10,8 +10,8 @@
 
 const navButtons = [
   {
-    label: "Games",
-    path: "/",
+    label: "Quantum",
+    path: "/quantum",
     // icon: <FontAwesomeIcon icon={faCompass} />
   },
   {

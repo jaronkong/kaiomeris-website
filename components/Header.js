@@ -4,6 +4,7 @@ import NavBar from './nav/NavBar'
 import navButtons from '../config/navButtons'
 
 const headerStyle = {
+  position: 'absolute',
   color: "white",
   width: "100%",
   paddingTop: '16px',
