@@ -1,8 +1,5 @@
 import Layout from "../components/Layout";
 
-const topImageStyle = {
-  position: 'absolute',
-};
 const bgStyle = {
   position: 'absolute',
   width: '100%',
@@ -25,8 +22,32 @@ const logoStyle = {
   'margin-right': 'auto',
 };
 
+// -------------------------------------
+// Content grid
+const contentRowStyle = {
+  padding: '0',
+  margin: '0',
+  'list-style': 'none',
+  '-ms-box-orient': 'horizontal',
+  display: '-webkit-box',
+  display: '-moz-box',
+  display: '-ms-flexbox',
+  display: '-moz-flex',
+  display: '-webkit-flex',
+  display: 'flex',
+
+  '-webkit-flex-direction': 'row',
+  'flex-direction': 'row',
+  'justify-content': 'center',
+};
+
+const contentRowItemStyle = {
+  'text-align': 'center',
+  margin: '16px',
+};
 const gifStyle = {
   width: '512px',
+  'box-shadow': '2px 4px 8px 1px rgba(0, 0, 0, 0.6)',
 };
 
 function QuantumPage() {
@@ -38,7 +59,14 @@ function QuantumPage() {
       </div>
       <img src="/quantum/titleWhite1.png" style={logoStyle} />
 
-      <img src="/quantum/quantumGif1.gif" style={gifStyle}/>
+      <ul style={contentRowStyle}>
+        <li style={contentRowItemStyle}>
+          <img src="/quantum/quantumGif1.gif" style={gifStyle}/>
+        </li>
+        <li style={contentRowItemStyle}>
+          <img src="/quantum/quantumGif1.gif" style={gifStyle}/>
+        </li>
+      </ul>
       <style jsx>{`
       body {
         background-color: #161616;
