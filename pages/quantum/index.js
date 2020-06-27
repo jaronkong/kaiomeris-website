@@ -1,7 +1,7 @@
-import Layout from "../components/Layout";
+import Layout from "../../components/Layout";
 import { TwitterFollowButton } from 'react-twitter-embed'
 
-import contentGrid from './styles/contentGrid.module.scss'
+import contentGrid from '../styles/contentGrid.module.scss'
 
 const bgStyle = {
   position: 'absolute',
@@ -58,7 +58,7 @@ const separatorDiv = {
 function QuantumPage() {
   return (
     <Layout>
-      <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap" rel="stylesheet"/>
+      <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap" rel="stylesheet" />
 
       <div>
         <img src="/quantum/bg.png" style={bgStyle} />
@@ -82,10 +82,10 @@ function QuantumPage() {
       <br />
       <ul className={contentGrid.contentRow}>
         <li className={contentGrid.contentRowItem}>
-          <img src="/quantum/quantumGif1.gif" style={gifStyle}/>
+          <img src="/quantum/quantumGif1.gif" style={gifStyle} />
         </li>
         <li className={contentGrid.contentRowItem}>
-          <img src="/quantum/quantumGif2.gif" style={gifStyle}/>
+          <img src="/quantum/quantumGif2.gif" style={gifStyle} />
         </li>
       </ul>
 
@@ -97,10 +97,10 @@ function QuantumPage() {
       <br />
       <ul className={contentGrid.contentRow}>
         <li className={contentGrid.contentRowItem}>
-          <img src="/quantum/quantumGifCards.gif" style={gifStyle}/>
+          <img src="/quantum/quantumGifCards.gif" style={gifStyle} />
         </li>
         <li className={contentGrid.contentRowItem}>
-          <img src="/quantum/quantumGifCharacter.gif" style={gifStyle}/>
+          <img src="/quantum/quantumGifCharacter.gif" style={gifStyle} />
         </li>
       </ul>
 

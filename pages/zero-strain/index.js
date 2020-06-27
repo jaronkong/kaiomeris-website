@@ -1,6 +1,6 @@
-import Layout from "../components/Layout";
+import Layout from "../../components/Layout";
 
-import contentGrid from './styles/contentGrid.module.scss'
+import contentGrid from '../styles/contentGrid.module.scss'
 
 const bgStyle = {
   position: 'absolute',
