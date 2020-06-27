@@ -19,7 +19,11 @@
   },
   "homepage": "https://github.com/jaronkong/kaiomeris-website#readme",
   "dependencies": {
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-optipng": "^8.0.0",
     "next": "^9.4.4",
+    "next-compose-plugins": "^2.2.0",
+    "next-optimized-images": "^2.6.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-twitter-embed": "^3.0.3",

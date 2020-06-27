@@ -46,6 +46,10 @@ const gifStyle = {
   width: '100%',
   'box-shadow': '2px 4px 8px 1px rgba(0, 0, 0, 0.6)',
 };
+const videoStyle = {
+  width: '100%',
+  'box-shadow': '2px 4px 8px 1px rgba(0, 0, 0, 0.6)',
+};
 const basicImageStyle = {
   width: '100%',
 };
@@ -75,10 +79,10 @@ function QuantumPage() {
       <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap" rel="stylesheet" />
 
       <div>
-        <img src="/quantum/bg.png" style={bgStyle} />
-        <img src="/quantum/character.png" style={charStyle} />
+        <img src={require('../../public/quantum/bg.png')} style={bgStyle} />
+        <img src={require('../../public/quantum/character.png')} style={charStyle} />
       </div>
-      <img src="/quantum/titleWhite1.png" style={logoStyle} />
+      <img src={require('../../public/quantum/titleWhite1.png')} style={logoStyle} />
 
       <div style={centeredDiv}>
         <TwitterFollowButton screenName="QuantumCardGame" options={{ size: 'large' }} placeholder="Loading" />
@@ -96,10 +100,14 @@ function QuantumPage() {
       <br />
       <ul className={contentGrid.contentRow}>
         <li className={contentGrid.contentRowItem}>
-          <img src="/quantum/quantumGif1.gif" style={gifStyle} />
+          <video autoPlay muted loop style={videoStyle}>
+            <source src="/quantum/vid1.mp4" type="video/mp4" />
+          </video>
         </li>
         <li className={contentGrid.contentRowItem}>
-          <img src="/quantum/quantumGif2.gif" style={gifStyle} />
+          <video autoPlay muted loop style={videoStyle}>
+            <source src="/quantum/vid2.mp4" type="video/mp4" />
+          </video>
         </li>
       </ul>
 
@@ -111,10 +119,14 @@ function QuantumPage() {
       <br />
       <ul className={contentGrid.contentRow}>
         <li className={contentGrid.contentRowItem}>
-          <img src="/quantum/quantumGifCards.gif" style={gifStyle} />
+          <video autoPlay muted loop style={videoStyle}>
+            <source src="/quantum/vidCards.mp4" type="video/mp4" />
+          </video>
         </li>
         <li className={contentGrid.contentRowItem}>
-          <img src="/quantum/quantumGifCharacter.gif" style={gifStyle} />
+          <video autoPlay muted loop style={videoStyle}>
+            <source src="/quantum/vidChars.mp4" type="video/mp4" />
+          </video>
         </li>
       </ul>
 
@@ -126,10 +138,11 @@ function QuantumPage() {
       <br />
       <ul className={contentGrid.contentRow}>
         <li className={contentGrid.contentRowItem}>
-          <img src="/quantum/screen2.png" style={gifStyle} />
+
+          <img src={require('../../public/quantum/screen2.png')} style={gifStyle} />
         </li>
         <li className={contentGrid.contentRowItem}>
-          <img src="/quantum/screen1.png" style={gifStyle} />
+          <img src={require('../../public/quantum/screen1.png')} style={gifStyle} />
         </li>
       </ul>
 
@@ -176,10 +189,6 @@ function QuantumPage() {
       <div style={centeredDiv}>
         <TwitterFollowButton screenName="QuantumCardGame" options={{ size: 'large' }} placeholder="Loading" />
       </div>
-      <div style={separatorDiv}></div>
-      {/* <div style={centeredDiv}>
-        <iframe src="https://store.steampowered.com/widget/1328530/" frameBorder="0" width="646" height="190"></iframe>
-      </div> */}
       <div style={separatorDiv}></div>
 
       <style jsx>{`
