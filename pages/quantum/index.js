@@ -105,7 +105,7 @@ function QuantumPage() {
           </video>
         </li>
         <li className={contentGrid.contentRowItem}>
-          <video autoPlay muted loop style={videoStyle}>
+          <video autoPlay muted loop style={videoStyle} poster='/quantum/vidThumbEditor.jpg'>
             <source src="/quantum/vid2.mp4" type="video/mp4" />
           </video>
         </li>
@@ -119,12 +119,12 @@ function QuantumPage() {
       <br />
       <ul className={contentGrid.contentRow}>
         <li className={contentGrid.contentRowItem}>
-          <video autoPlay muted loop style={videoStyle}>
+          <video autoPlay muted loop style={videoStyle} poster='/quantum/vidThumbCards.jpg'>
             <source src="/quantum/vidCards.mp4" type="video/mp4" />
           </video>
         </li>
         <li className={contentGrid.contentRowItem}>
-          <video autoPlay muted loop style={videoStyle}>
+          <video autoPlay muted loop style={videoStyle} poster='/quantum/vidThumbCharacters.jpg'>
             <source src="/quantum/vidChars.mp4" type="video/mp4" />
           </video>
         </li>
@@ -138,11 +138,10 @@ function QuantumPage() {
       <br />
       <ul className={contentGrid.contentRow}>
         <li className={contentGrid.contentRowItem}>
-
-          <img src={require('../../public/quantum/screen2.png')} style={gifStyle} />
+          <img src='/quantum/screen2.jpg' style={gifStyle} />
         </li>
         <li className={contentGrid.contentRowItem}>
-          <img src={require('../../public/quantum/screen1.png')} style={gifStyle} />
+          <img src='/quantum/screen1.jpg' style={gifStyle} />
         </li>
       </ul>
 
