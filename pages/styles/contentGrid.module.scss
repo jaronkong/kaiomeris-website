@@ -1,0 +1,30 @@
+.contentRow {
+  padding: 0;
+  margin: 0 auto;
+  max-width: 1024px;
+  list-style: none;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media (max-width: 1000px) {
+  .contentRow {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+
+.contentRowItem {
+  text-align: center;
+  margin: 16px;
+}

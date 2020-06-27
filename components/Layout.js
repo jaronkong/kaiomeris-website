@@ -1,5 +1,5 @@
 import Header from "./Header";
-import NavBar from "./nav/NavBar";
+import Footer from "./Footer";
 
 const layoutStyle = {
   display: "flex",
@@ -20,6 +20,7 @@ const Layout = props => (
     <div className="Content" style={contentStyle}>
       {props.children}
     </div>
+    <Footer />
 
     <style jsx global>{`
       body {

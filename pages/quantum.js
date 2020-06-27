@@ -1,5 +1,8 @@
 import Layout from "../components/Layout";
 import { withRouter } from "next/router";
+import { TwitterFollowButton } from 'react-twitter-embed'
+
+import contentGrid from './styles/contentGrid.module.scss'
 
 const bgStyle = {
   position: 'absolute',
@@ -61,7 +64,8 @@ const detailStyle = {
   'text-align': 'center',
 };
 const gifStyle = {
-  width: '512px',
+  // width: '512px',
+  width: '100%',
   'box-shadow': '2px 4px 8px 1px rgba(0, 0, 0, 0.6)',
 };
 const basicImageStyle = {
@@ -87,7 +91,7 @@ function QuantumPage() {
       <img src="/quantum/titleWhite1.png" style={logoStyle} />
 
       <div style={centeredDiv}>
-        <a href="https://twitter.com/QuantumCardGame?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @QuantumCardGame</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <TwitterFollowButton screenName="QuantumCardGame" options={{ size: 'large' }} placeholder="Loading" />
       </div>
       <div style={separatorDiv}></div>
       <div style={centeredDiv}>
@@ -100,11 +104,11 @@ function QuantumPage() {
         <p style={detailStyle}>It’s always your turn. Make plays, upgrade your deck, and break the enemy board.</p>
       </div>
       <br />
-      <ul style={contentRowStyle}>
-        <li style={contentRowItemStyle}>
+      <ul className={contentGrid.contentRow}>
+        <li className={contentGrid.contentRowItem}>
           <img src="/quantum/quantumGif1.gif" style={gifStyle}/>
         </li>
-        <li style={contentRowItemStyle}>
+        <li className={contentGrid.contentRowItem}>
           <img src="/quantum/quantumGif2.gif" style={gifStyle}/>
         </li>
       </ul>
@@ -115,11 +119,11 @@ function QuantumPage() {
         <p style={detailStyle}>You play as the members of Quantum, an organization of hackers dedicated to eliminating the most dangerous malware in the world. Together they wield programs with powerful, rule-bending effects.</p>
       </div>
       <br />
-      <ul style={contentRowStyle}>
-        <li style={contentRowItemStyle}>
+      <ul className={contentGrid.contentRow}>
+        <li className={contentGrid.contentRowItem}>
           <img src="/quantum/quantumGifCards.gif" style={gifStyle}/>
         </li>
-        <li style={contentRowItemStyle}>
+        <li className={contentGrid.contentRowItem}>
           <img src="/quantum/quantumGifCharacter.gif" style={gifStyle}/>
         </li>
       </ul>
@@ -130,11 +134,11 @@ function QuantumPage() {
         <p style={detailStyle}>Experience the lives of the people behind the code. Even as an unstoppable computer virus threatens to destroy the modern world, sometimes the most important problems are the ones hidden inside each of us.</p>
       </div>
       <br />
-      <ul style={contentRowStyle}>
-        <li style={contentRowItemStyle}>
+      <ul className={contentGrid.contentRow}>
+        <li className={contentGrid.contentRowItem}>
           <img src="/quantum/screen2.png" style={gifStyle} />
         </li>
-        <li style={contentRowItemStyle}>
+        <li className={contentGrid.contentRowItem}>
           <img src="/quantum/screen1.png" style={gifStyle} />
         </li>
       </ul>
@@ -145,19 +149,19 @@ function QuantumPage() {
         <p style={detailStyle}>Expect the ordinary to be extraordinary. Far from the shores of any nation floats a magnificent city. Originally created to be home to the most radical and advanced technological research, it now plays host to the most dangerous malware in the world.</p>
       </div>
       <br />
-      <ul style={contentRowStyle}>
-        <li style={contentRowItemStyle}>
+      <ul className={contentGrid.contentRow}>
+        <li className={contentGrid.contentRowItem}>
           <img src="/quantum/bg1.jpg" style={gifStyle} />
         </li>
-        <li style={contentRowItemStyle}>
+        <li className={contentGrid.contentRowItem}>
           <img src="/quantum/bg2.jpg" style={gifStyle} />
         </li>
       </ul>
-      <ul style={contentRowStyle}>
-        <li style={contentRowItemStyle}>
+      <ul className={contentGrid.contentRow}>
+        <li className={contentGrid.contentRowItem}>
           <img src="/quantum/bg3.jpg" style={gifStyle} />
         </li>
-        <li style={contentRowItemStyle}>
+        <li className={contentGrid.contentRowItem}>
           <img src="/quantum/bg4.jpg" style={gifStyle} />
         </li>
       </ul>
@@ -167,11 +171,11 @@ function QuantumPage() {
         <p style={bigHeaderStyle}>Try the <u>free</u> demo on Discord! And get some emotes :)</p>
       </div>
       <br />
-      <ul style={contentRowStyle}>
-        <li style={contentRowItemStyle}>
+      <ul className={contentGrid.contentRow}>
+        <li className={contentGrid.contentRowItem}>
           <img src="/quantum/emoteLine.png" style={basicImageStyle} />
         </li>
-        <li style={contentRowItemStyle}>
+        <li className={contentGrid.contentRowItem}>
           <a href="https://discord.gg/tpSRqfZ">
             <img src="/quantum/discordWhite.png" style={basicImageStyle} />
           </a>
@@ -180,7 +184,7 @@ function QuantumPage() {
 
       <div style={separatorDiv}></div>
       <div style={centeredDiv}>
-        <a href="https://twitter.com/QuantumCardGame?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @QuantumCardGame</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <TwitterFollowButton screenName="QuantumCardGame" options={{ size: 'large' }} placeholder="Loading" />
       </div>
       <div style={separatorDiv}></div>
       <div style={centeredDiv}>
