@@ -8,8 +8,8 @@ const headerStyle = {
   color: "white",
   width: "100%",
   paddingTop: '16px',
-  marginLeft: '16px',
-  marginRight: '16px',
+  // marginLeft: '16px',
+  // marginRight: '16px',
 };
 
 const headerFlexContainerStyle = {
@@ -38,6 +38,7 @@ const headerFlexContainerItemStyle = {
 };
 
 const logoStyle = {
+  marginLeft: "32px",
   margin: "4px",
   height: "50px",
 };

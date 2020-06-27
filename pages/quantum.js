@@ -1,5 +1,4 @@
 import Layout from "../components/Layout";
-import { withRouter } from "next/router";
 import { TwitterFollowButton } from 'react-twitter-embed'
 
 import contentGrid from './styles/contentGrid.module.scss'
@@ -27,28 +26,6 @@ const logoStyle = {
 };
 
 // -------------------------------------
-// Content grid
-const contentRowStyle = {
-  padding: '0',
-  margin: '0',
-  'list-style': 'none',
-  '-ms-box-orient': 'horizontal',
-  display: '-webkit-box',
-  display: '-moz-box',
-  display: '-ms-flexbox',
-  display: '-moz-flex',
-  display: '-webkit-flex',
-  display: 'flex',
-
-  '-webkit-flex-direction': 'row',
-  'flex-direction': 'row',
-  'justify-content': 'center',
-};
-
-const contentRowItemStyle = {
-  'text-align': 'center',
-  margin: '16px',
-};
 const bigHeaderStyle = {
   color: '#ebebeb',
   'font-size': '26pt',
@@ -64,7 +41,6 @@ const detailStyle = {
   'text-align': 'center',
 };
 const gifStyle = {
-  // width: '512px',
   width: '100%',
   'box-shadow': '2px 4px 8px 1px rgba(0, 0, 0, 0.6)',
 };
