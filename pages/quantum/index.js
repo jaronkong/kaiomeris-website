@@ -31,6 +31,7 @@ const bigHeaderStyle = {
   'font-size': '26pt',
   'font-family': 'Rajdhani, sans-serif',
   'text-align': 'center',
+  margin: '0 32px',
 };
 const detailStyle = {
   color: '#5c5c5c',
@@ -39,18 +40,31 @@ const detailStyle = {
   'font-size': '12pt',
   'font-family': 'Rajdhani, sans-serif',
   'text-align': 'center',
+  padding: '0 32px',
 };
 const gifStyle = {
   width: '100%',
   'box-shadow': '2px 4px 8px 1px rgba(0, 0, 0, 0.6)',
 };
 const basicImageStyle = {
-  width: '512px',
+  width: '100%',
 };
 const centeredDiv = {
   margin: '0 auto',
   'text-align': 'center',
 };
+const steamButtonWrapper = {
+  margin: '0 auto',
+  'text-align': 'center',
+  height: '200px',
+};
+const steamButton = {
+  position: 'absolute',
+  left: 0,
+  width: '100%',
+  overflow: 'hidden',
+};
+
 const separatorDiv = {
   height: '32px',
 };
@@ -70,9 +84,9 @@ function QuantumPage() {
         <TwitterFollowButton screenName="QuantumCardGame" options={{ size: 'large' }} placeholder="Loading" />
       </div>
       <div style={separatorDiv}></div>
-      <div style={centeredDiv}>
-        <iframe src="https://store.steampowered.com/widget/1328530/" frameborder="0" width="646" height="190"></iframe>
-      </div>
+      <div style={steamButtonWrapper}><div style={steamButton}>
+        <iframe src="https://store.steampowered.com/widget/1328530/" frameBorder="0" width="646" height="190"></iframe>
+      </div></div>
 
       <div style={separatorDiv}></div>
       <div>
@@ -163,9 +177,9 @@ function QuantumPage() {
         <TwitterFollowButton screenName="QuantumCardGame" options={{ size: 'large' }} placeholder="Loading" />
       </div>
       <div style={separatorDiv}></div>
-      <div style={centeredDiv}>
-        <iframe src="https://store.steampowered.com/widget/1328530/" frameborder="0" width="646" height="190"></iframe>
-      </div>
+      {/* <div style={centeredDiv}>
+        <iframe src="https://store.steampowered.com/widget/1328530/" frameBorder="0" width="646" height="190"></iframe>
+      </div> */}
       <div style={separatorDiv}></div>
 
       <style jsx>{`

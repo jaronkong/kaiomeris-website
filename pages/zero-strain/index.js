@@ -30,6 +30,7 @@ const bigHeaderStyle = {
   'font-size': '26pt',
   'font-family': 'Rajdhani, sans-serif',
   'text-align': 'center',
+  margin: '0 32px',
 };
 const detailStyle = {
   color: '#5c5c5c',
@@ -38,6 +39,7 @@ const detailStyle = {
   'font-size': '12pt',
   'font-family': 'Rajdhani, sans-serif',
   'text-align': 'center',
+  padding: '0 32px',
 };
 const screenStyle = {
   width: '100%',
@@ -46,6 +48,17 @@ const screenStyle = {
 const centeredDiv = {
   margin: '0 auto',
   'text-align': 'center',
+};
+const steamButtonWrapper = {
+  margin: '0 auto',
+  'text-align': 'center',
+  height: '200px',
+};
+const steamButton = {
+  position: 'absolute',
+  left: 0,
+  width: '100%',
+  overflow: 'hidden',
 };
 const separatorDiv = {
   height: '32px',
@@ -63,14 +76,11 @@ function QuantumPage() {
       <img src="/zero-strain/libraryLogo.png" style={logoStyle} />
 
       <div style={separatorDiv}></div>
-      <div style={centeredDiv}>
+      <div style={steamButtonWrapper}><div style={steamButton}>
         <iframe src="https://store.steampowered.com/widget/1079560/" frameborder="0" width="646" height="190"></iframe>
-      </div>
+      </div></div>
 
       <div style={separatorDiv}></div>
-      <div style={centeredDiv}>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/dYKQ0aGI5bU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
 
       <div style={separatorDiv}></div>
       <div>
@@ -104,9 +114,10 @@ function QuantumPage() {
       </ul>
 
       <div style={separatorDiv}></div>
-      <div style={centeredDiv}>
+      <div style={steamButtonWrapper}><div style={steamButton}>
         <iframe src="https://store.steampowered.com/widget/1079560/" frameborder="0" width="646" height="190"></iframe>
-      </div>
+      </div></div>
+
       <div style={separatorDiv}></div>
 
       <style jsx>{`
