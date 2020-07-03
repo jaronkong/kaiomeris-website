@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Layout from "../../components/Layout";
 
 import contentGrid from '../styles/contentGrid.module.scss'
@@ -45,10 +46,6 @@ const screenStyle = {
   width: '100%',
   'box-shadow': '2px 4px 8px 1px rgba(0, 0, 0, 0.6)',
 };
-const centeredDiv = {
-  margin: '0 auto',
-  'text-align': 'center',
-};
 const steamButtonWrapper = {
   margin: '0 auto',
   'text-align': 'center',
@@ -67,6 +64,9 @@ const separatorDiv = {
 function QuantumPage() {
   return (
     <Layout>
+      <Head>
+        <title>Zero Strain</title>
+      </Head>
       <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap" rel="stylesheet"/>
 
       <div>

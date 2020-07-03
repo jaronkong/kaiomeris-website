@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Header from "./Header";
 import Footer from "./Footer";
 
@@ -16,6 +17,9 @@ const contentStyle = {
 
 const Layout = props => (
   <div className="Layout" style={layoutStyle}>
+    <Head>
+      <link rel="shortcut icon" href="/favicon.ico" />
+    </Head>
     <Header />
     <div className="Content" style={contentStyle}>
       {props.children}

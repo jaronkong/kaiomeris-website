@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Layout from "../../components/Layout";
 import { TwitterFollowButton } from 'react-twitter-embed'
 
@@ -76,6 +77,9 @@ const separatorDiv = {
 function QuantumPage() {
   return (
     <Layout>
+      <Head>
+        <title>Quantum Protocol</title>
+      </Head>
       <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap" rel="stylesheet" />
 
       <div>

@@ -1,3 +1,5 @@
+import Head from 'next/head';
+
 import Layout from "../components/Layout";
 import Link from "next/link";
 
@@ -15,6 +17,9 @@ const boxArtStyle = {
 const Index = () => {
   return (
     <Layout>
+      <Head>
+        <title>Kaio Meris</title>
+      </Head>
       <div style={topSpacer}></div>
       <ul className={contentGrid.contentRow}>
         <li className={contentGrid.contentRowItem}>
