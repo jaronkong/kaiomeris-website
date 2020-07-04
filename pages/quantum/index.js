@@ -97,6 +97,13 @@ function QuantumPage() {
       </div></div>
 
       <div style={separatorDiv}></div>
+      <div style={separatorDiv}></div>
+      <div style={centeredDiv}>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/iXjQNLEozYo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div style={separatorDiv}></div>
+
+      <div style={separatorDiv}></div>
       <div>
         <p style={bigHeaderStyle}>A deckbuilding card game where every action matters.</p>
         <p style={detailStyle}>It’s always your turn. Make plays, upgrade your deck, and break the enemy board.</p>
