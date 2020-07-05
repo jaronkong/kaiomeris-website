@@ -8,6 +8,8 @@ Use these commands in gitbash (powershell doesn't work)
 ```
 
 ## Auto Build
+Push to the github repo to trigger a google cloud build job!
+
 `https://console.cloud.google.com/cloud-build/dashboard?project=kaiomeris`
 
 ## Manual Export
