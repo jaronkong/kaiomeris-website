@@ -90,26 +90,26 @@ function QuantumPage() {
       <br />
       <ul className={contentGrid.contentRow}>
         <li className={contentGrid.contentRowItem}>
-          <img src="/zero-strain/screen1.png" style={screenStyle}/>
+          <img src="/zero-strain/screen1.jpg" style={screenStyle}/>
         </li>
         <li className={contentGrid.contentRowItem}>
-          <img src="/zero-strain/screen2.png" style={screenStyle}/>
-        </li>
-      </ul>
-      <ul className={contentGrid.contentRow}>
-        <li className={contentGrid.contentRowItem}>
-          <img src="/zero-strain/screen3.png" style={screenStyle}/>
-        </li>
-        <li className={contentGrid.contentRowItem}>
-          <img src="/zero-strain/screen4.png" style={screenStyle}/>
+          <img src="/zero-strain/screen2.jpg" style={screenStyle}/>
         </li>
       </ul>
       <ul className={contentGrid.contentRow}>
         <li className={contentGrid.contentRowItem}>
-          <img src="/zero-strain/screen5.png" style={screenStyle}/>
+          <img src="/zero-strain/screen3.jpg" style={screenStyle}/>
         </li>
         <li className={contentGrid.contentRowItem}>
-          <img src="/zero-strain/screen6.png" style={screenStyle}/>
+          <img src="/zero-strain/screen4.jpg" style={screenStyle}/>
+        </li>
+      </ul>
+      <ul className={contentGrid.contentRow}>
+        <li className={contentGrid.contentRowItem}>
+          <img src="/zero-strain/screen5.jpg" style={screenStyle}/>
+        </li>
+        <li className={contentGrid.contentRowItem}>
+          <img src="/zero-strain/screen6.jpg" style={screenStyle}/>
         </li>
       </ul>
 
