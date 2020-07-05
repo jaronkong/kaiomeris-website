@@ -70,10 +70,10 @@ function QuantumPage() {
       <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap" rel="stylesheet"/>
 
       <div>
-        <img src={require('../../public/zero-strain/headerBg.png')} style={bgStyle} />
-        <img src={require('../../public/zero-strain/headerChar.png')} style={charStyle} />
+        <img src="/zero-strain/headerBg.png" style={bgStyle} />
+        <img src="/zero-strain/headerChar.png" style={charStyle} />
       </div>
-      <img src={require('../../public/zero-strain/libraryLogo.png')} style={logoStyle} />
+      <img src="/zero-strain/libraryLogo.png" style={logoStyle} />
 
       <div style={separatorDiv}></div>
       <div style={steamButtonWrapper}><div style={steamButton}>
@@ -90,26 +90,26 @@ function QuantumPage() {
       <br />
       <ul className={contentGrid.contentRow}>
         <li className={contentGrid.contentRowItem}>
-          <img src={require('../../public/zero-strain/screen1.png')} style={screenStyle}/>
+          <img src="/zero-strain/screen1.png" style={screenStyle}/>
         </li>
         <li className={contentGrid.contentRowItem}>
-          <img src={require('../../public/zero-strain/screen2.png')} style={screenStyle}/>
-        </li>
-      </ul>
-      <ul className={contentGrid.contentRow}>
-        <li className={contentGrid.contentRowItem}>
-          <img src={require('../../public/zero-strain/screen3.png')} style={screenStyle}/>
-        </li>
-        <li className={contentGrid.contentRowItem}>
-          <img src={require('../../public/zero-strain/screen4.png')} style={screenStyle}/>
+          <img src="/zero-strain/screen2.png" style={screenStyle}/>
         </li>
       </ul>
       <ul className={contentGrid.contentRow}>
         <li className={contentGrid.contentRowItem}>
-          <img src={require('../../public/zero-strain/screen5.png')} style={screenStyle}/>
+          <img src="/zero-strain/screen3.png" style={screenStyle}/>
         </li>
         <li className={contentGrid.contentRowItem}>
-          <img src={require('../../public/zero-strain/screen6.png')} style={screenStyle}/>
+          <img src="/zero-strain/screen4.png" style={screenStyle}/>
+        </li>
+      </ul>
+      <ul className={contentGrid.contentRow}>
+        <li className={contentGrid.contentRowItem}>
+          <img src="/zero-strain/screen5.png" style={screenStyle}/>
+        </li>
+        <li className={contentGrid.contentRowItem}>
+          <img src="/zero-strain/screen6.png" style={screenStyle}/>
         </li>
       </ul>
 

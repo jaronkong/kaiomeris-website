@@ -83,10 +83,10 @@ function QuantumPage() {
       <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap" rel="stylesheet" />
 
       <div>
-        <img src={require('../../public/quantum/bg.png')} style={bgStyle} />
-        <img src={require('../../public/quantum/character.png')} style={charStyle} />
+        <img src="/quantum/bg.png" style={bgStyle} />
+        <img src="/quantum/character.png" style={charStyle} />
       </div>
-      <img src={require('../../public/quantum/titleWhite1.png')} style={logoStyle} />
+      <img src="/quantum/titleWhite1.png" style={logoStyle} />
 
       <div style={centeredDiv}>
         <TwitterFollowButton screenName="QuantumCardGame" options={{ size: 'large' }} placeholder="Loading" />
