@@ -7,8 +7,10 @@ steps:
     args: ['fetch']
   - name: 'gcr.io/kaiomeris/git-lfs'
     args: ['reset', '--soft', 'origin/master']
-  # - name: 'gcr.io/kaiomeris/git-lfs'
-  #   args: ['lfs', 'fetch']
+  - name: 'gcr.io/kaiomeris/git-lfs'
+    args: ['lfs', 'fetch']
+  - name: 'gcr.io/kaiomeris/git-lfs'
+    args: ['lfs', 'checkout']
   - name: node:10
     entrypoint: npm
     args: ['install']
