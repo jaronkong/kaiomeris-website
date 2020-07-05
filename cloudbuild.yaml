@@ -1,11 +1,13 @@
 steps:
-  - name: node
+  - name: 'gcr.io/cloud-builders/git'
+    args: ['lfs', 'pull']
+  - name: node:10
     entrypoint: npm
     args: ['install']
-  - name: node
+  - name: node:10
     entrypoint: npm
     args: ['run', 'build']
-  - name: node
+  - name: node:10
     entrypoint: npm
     args: ['run', 'export']
   - name: gcr.io/cloud-builders/gsutil
