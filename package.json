@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "node_modules/next/dist/bin/next",
     "build": "node_modules/next/dist/bin/next build",
+    "export": "node_modules/next/dist/bin/next export",
     "start": "node_modules/next/dist/bin/next start"
   },
   "repository": {
