@@ -1,5 +1,5 @@
 steps:
-  - name: 'gcr.io/cloud-builders/git'
+  - name: 'gcr.io/kaiomeris/git-lfs'
     args: ['lfs', 'pull']
   - name: node:10
     entrypoint: npm
