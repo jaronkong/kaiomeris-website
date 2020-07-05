@@ -1,12 +1,16 @@
 # kaiomeris-website
 Website for KaioMeris
 
+## Local Development
 Use these commands in gitbash (powershell doesn't work)
 ```
 ./node_modules/next/dist/bin/next
 ```
 
-Export
+## Auto Build
+`https://console.cloud.google.com/cloud-build/dashboard?project=kaiomeris`
+
+## Manual Export
 ```
 ./node_modules/next/dist/bin/next build
 # Delete the "out" directory to make sure get a fresh export
