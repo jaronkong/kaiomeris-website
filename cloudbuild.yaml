@@ -1,6 +1,14 @@
 steps:
   - name: 'gcr.io/kaiomeris/git-lfs'
-    args: ['lfs', 'pull']
+    args: ['init']
+  - name: 'gcr.io/kaiomeris/git-lfs'
+    args: ['remote', 'add', 'origin', '[REPO_ADDRESS]']
+  - name: 'gcr.io/kaiomeris/git-lfs'
+    args: ['fetch']
+  - name: 'gcr.io/kaiomeris/git-lfs'
+    args: ['reset', '--soft', 'origin/$BRANCH_NAME']
+  - name: 'gcr.io/kaiomeris/git-lfs'
+    args: ['lfs', 'fetch']
   - name: node:10
     entrypoint: npm
     args: ['install']
