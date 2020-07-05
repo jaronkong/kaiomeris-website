@@ -8,4 +8,6 @@ steps:
   - name: node
     entrypoint: npm
     args: ['run', 'export']
+  - name: gcr.io/cloud-builders/gsutil
+    args: ["-m", "rsync", "-r", "-c", "-d", "./out", "gs://km-shared-files-423214"]
 timeout: "600s"
