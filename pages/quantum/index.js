@@ -89,9 +89,15 @@ function QuantumPage() {
         <meta property="og:title" content="Quantum Protocol" />
         <meta property="og:description" content="A visual novel deckbuilding card game where it's always your turn." />
         <meta property="og:url" content="https://www.kaiomeris.com/quantum" />
-        <meta property="og:image" content="/quantum/opengraphImage.jpg" />
+        <meta property="og:image" content="https://www.kaiomeris.com/quantum/opengraphImage.jpg" />
         <meta property="og:image:width" content="1200"></meta>
         <meta property="og:image:height" content="630"></meta>
+
+        <meta property="twitter:url" content="https://www.kaiomeris.com/quantum"></meta>
+        <meta name="twitter:card" content="summary_large_image"></meta>
+        <meta name="twitter:title" content="Quantum Protocol"></meta>
+        <meta name="twitter:description" content="A visual novel deckbuilding card game where it's always your turn."></meta>
+        <meta name="twitter:image" content="https://www.kaiomeris.com/quantum/opengraphImage.jpg"></meta>
       </Head>
       <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap" rel="stylesheet" />
 
