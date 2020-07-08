@@ -3,6 +3,7 @@ import Layout from "../../components/Layout";
 import { TwitterFollowButton } from 'react-twitter-embed'
 
 import contentGrid from '../styles/contentGrid.module.scss'
+import youtubeEmbed from '../styles/youtubeEmbed.module.scss'
 
 const bgStyle = {
   position: 'absolute',
@@ -54,6 +55,7 @@ const videoStyle = {
 const basicImageStyle = {
   width: '100%',
 };
+
 const centeredDiv = {
   margin: '0 auto',
   'text-align': 'center',
@@ -68,6 +70,11 @@ const steamButton = {
   left: 0,
   width: '100%',
   overflow: 'hidden',
+};
+const videoEmbed = {
+  margin: '0 auto',
+  'text-align': 'center',
+  maxWidth: '700px',
 };
 
 const separatorDiv = {
@@ -98,8 +105,8 @@ function QuantumPage() {
 
       <div style={separatorDiv}></div>
       <div style={separatorDiv}></div>
-      <div style={centeredDiv}>
-        <iframe width="672" height="378" src="https://www.youtube.com/embed/iXjQNLEozYo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div className={youtubeEmbed.videoContainer} style={videoEmbed}>
+        <iframe src="https://www.youtube.com/embed/iXjQNLEozYo" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
       </div>
       <div style={separatorDiv}></div>
 
