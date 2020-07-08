@@ -86,6 +86,11 @@ function QuantumPage() {
     <Layout>
       <Head>
         <title>Quantum Protocol</title>
+        <meta property="og:title" content="Quantum Protocol" />
+        <meta property="og:description" content="A visual novel deckbuilding card game where it's always your turn." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.kaiomeris.com/quantum" />
+        <meta property="og:image" content="/quantum/opengraphImage.jpg" />
       </Head>
       <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap" rel="stylesheet" />
 
