@@ -124,8 +124,8 @@ function QuantumPage() {
 
       <div style={separatorDiv}></div>
       <div>
-        <p style={bigHeaderStyle}>A deckbuilding card game where every action matters.</p>
-        <p style={detailStyle}>It’s always your turn. Make plays, upgrade your deck, and break the enemy board.</p>
+        <p style={bigHeaderStyle}>A deckbuilding card game where it's always your turn.</p>
+        <p style={detailStyle}>Every action matters. Make plays, upgrade your deck, and break the enemy board.</p>
       </div>
       <br />
       <ul className={contentGrid.contentRow}>
