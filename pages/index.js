@@ -25,14 +25,14 @@ const Index = () => {
         <li className={contentGrid.contentRowItem}>
           <a href="/quantum">
             <div className={hoverEffects.shinebutton}>
-                <img src="/box-arts/quantum.png" style={boxArtStyle} />
+              <img src="/box-arts/quantum.png" style={boxArtStyle} alt="Quantum Protocol"/>
             </div>
           </a>
         </li>
         <li className={contentGrid.contentRowItem}>
           <a href="/zero-strain">
             <div className={hoverEffects.shinebutton}>
-              <img src="/box-arts/zerostrain.jpg" style={boxArtStyle} />
+              <img src="/box-arts/zerostrain.jpg" style={boxArtStyle} alt="Zero Strain" />
             </div>
           </a>
         </li>
