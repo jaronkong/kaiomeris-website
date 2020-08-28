@@ -81,6 +81,10 @@ const separatorDiv = {
   height: '32px',
 };
 
+const emoteButton = {
+  height: '96px',
+}
+
 function QuantumPage() {
   return (
     <Layout>
@@ -210,6 +214,13 @@ function QuantumPage() {
         <li className={contentGrid.contentRowItem}>
           <a href="https://discord.gg/tpSRqfZ">
             <img src="/quantum/discordWhite.png" style={basicImageStyle} />
+          </a>
+        </li>
+      </ul>
+      <ul className={contentGrid.contentRow}>
+        <li className={contentGrid.contentRowItem}>
+          <a href="/quantum/presskit">
+            <img src="/quantum/pressKitButton.png" style={emoteButton}/>
           </a>
         </li>
       </ul>
