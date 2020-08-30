@@ -42,6 +42,10 @@ const boxImage = {
   width: '600px',
 }
 
+const emoteButton = {
+  height: '96px',
+}
+
 function QuantumPresskit() {
   return (
     <Layout>
@@ -106,6 +110,10 @@ function QuantumPresskit() {
             <td>Social</td>
             <td><a href="https://discord.gg/tpSRqfZ">Discord</a>, <a href="https://twitter.com/QuantumCardGame">Twitter</a></td>
           </tr>
+          <tr>
+            <td>Store</td>
+            <td><a href="https://store.steampowered.com/app/1328530/Quantum_Protocol/">Steam</a></td>
+          </tr>
         </table>
 
         <p style={categoryHeader}>
@@ -151,12 +159,14 @@ function QuantumPresskit() {
         </p>
 
         <p style={categoryHeader}>
-          Media
+          Download
         </p>
         <hr style={dividerLine}/>
+        <a href="/quantum/quantum_presskit.zip" download>
+          <img src="/quantum/pressKitDownloadButton.png" style={emoteButton}/>
+        </a>
+        <br></br>
         <img src="/quantum/queenCapsule.png" style={fullImage}/>
-        <img src="/quantum/queenHorizontal.png" style={fullImage}/>
-        <img src="/quantum/boxCover.png" style={boxImage}/>
       </div>
 
       <style jsx>{`
