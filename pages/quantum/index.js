@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import Layout from "../../components/Layout";
 import { TwitterFollowButton } from 'react-twitter-embed'
-import FacebookPixel1 from '../../components/analytics/pixels/facebook/Pixel1'
 
 import contentGrid from '../styles/contentGrid.module.scss'
 import youtubeEmbed from '../styles/youtubeEmbed.module.scss'
@@ -103,8 +102,6 @@ function QuantumPage() {
         <meta name="twitter:title" content="Quantum Protocol"></meta>
         <meta name="twitter:description" content="A visual novel deckbuilding card game where it's always your turn."></meta>
         <meta name="twitter:image" content="https://www.kaiomeris.com/quantum/opengraphImage.jpg"></meta>
-
-        <FacebookPixel1 />
       </Head>
       <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap" rel="stylesheet" />
 
