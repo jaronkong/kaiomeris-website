@@ -20,7 +20,7 @@ const contentColumn = {
   'font-family': 'sans-serif',
   'font-size': '14pt',
   margin: 'auto',
-  maxWidth: '1024px',
+  maxWidth: '768px',
 };
 
 const categoryHeader = {

@@ -230,6 +230,9 @@ function QuantumPage() {
         <TwitterFollowButton screenName="QuantumCardGame" options={{ size: 'large' }} placeholder="Loading" />
       </div>
       <div style={separatorDiv}></div>
+      <div style={separatorDiv}></div>
+      <div style={separatorDiv}></div>
+      <a href="/privacy" style={detailStyle}>Privacy Policy</a>
 
       <style jsx>{`
       body {
