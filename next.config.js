@@ -2,6 +2,6 @@ const withPlugins = require('next-compose-plugins');
 
 module.exports = withPlugins([
   {
-    exportTrailingSlash: true,
+    trailingSlash: true,
   }
 ]);
