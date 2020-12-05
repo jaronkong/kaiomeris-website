@@ -122,7 +122,7 @@ function QuantumPage() {
       <div style={separatorDiv}></div>
       <div style={separatorDiv}></div>
       <div className={youtubeEmbed.videoContainer} style={videoEmbed}>
-        <iframe src="https://www.youtube.com/embed/gHVChbdl2EU" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        <iframe src="https://www.youtube.com/embed/5Tf9WAyoCWQ" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
       </div>
       <div style={separatorDiv}></div>
 
