@@ -2,7 +2,7 @@ steps:
   - name: 'gcr.io/kaiomeris/git-lfs'
     args: ['init']
   - name: 'gcr.io/kaiomeris/git-lfs'
-    args: ['remote', 'add', 'origin', 'https://github.com/jaronkong/kaiomeris-website.git']
+    args: ['remote', 'set-url', 'origin', 'https://github.com/jaronkong/kaiomeris-website.git']
   - name: 'gcr.io/kaiomeris/git-lfs'
     args: ['fetch']
   - name: 'gcr.io/kaiomeris/git-lfs'
