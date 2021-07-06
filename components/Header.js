@@ -38,9 +38,9 @@ const headerFlexContainerItemStyle = {
 };
 
 const logoStyle = {
-  marginLeft: "32px",
-  margin: "4px",
-  height: "50px",
+  margin: "4",
+  'margin-left': "48px",
+  height: "120px",
 };
 
 const Header = () => (
@@ -49,7 +49,7 @@ const Header = () => (
     <ul style={headerFlexContainerStyle}>
       <li style={headerFlexContainerItemStyle}>
         <Link href="/">
-          <a><img src="/logoLight.png" alt="logo" style={logoStyle}/></a>
+          <a><img src="/logoBlueWhite.png" alt="logo" style={logoStyle}/></a>
         </Link>
       </li>
       <li style={headerFlexContainerItemStyle}>
